@@ -83,7 +83,7 @@ mario-ppo-agent/
 
 ##  Results
 
-The agent consistently moves right, jumps over Goombas, and reaches the flagpole on good runs. Best performance recorded after selecting the top episode out of 250 runs.
+The agent consistently moves right, jumps over Goombas, and reaches the flagpole on good runs. Best performance recorded after selecting the top episode out of 300 runs.
 
 ---
 
