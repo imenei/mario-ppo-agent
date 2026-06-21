@@ -2,7 +2,7 @@
 
 An AI agent trained to play Super Mario Bros using Deep Reinforcement Learning with the PPO algorithm.
 
-![Mario PPO Agent](mario_best.mp4)
+![Mario PPO Agent](mario_best.gif)
 
 ---
 
