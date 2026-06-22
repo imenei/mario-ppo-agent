@@ -12,7 +12,7 @@ An AI agent trained to play Super Mario Bros using Deep Reinforcement Learning w
 
 ##  How it works
 
-The agent learns by trial and error — it receives a reward when it moves forward and a penalty when it dies. Over time, it learns to run, jump over enemies, and avoid obstacles on its own.
+The agent learns by trial and error it receives a reward when it moves forward and a penalty when it dies. Over time, it learns to run, jump over enemies, and avoid obstacles on its own.
 
 The algorithm used is **PPO (Proximal Policy Optimization)**, a state-of-the-art RL algorithm that updates the agent's policy in small, stable steps to avoid forgetting what it already learned.
 
@@ -98,9 +98,5 @@ mario-ppo-agent/
 └── mario_ppo_500k.zip    ← trained model
 ```
 
----
 
-##  Author
 
-**Imene Belmadoui** — AI & Data Science Engineer
-[GitHub](https://github.com/imenei) · [LinkedIn](https://linkedin.com/in/imene-belmadoui)
