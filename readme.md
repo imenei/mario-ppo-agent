@@ -87,4 +87,3 @@ The agent consistently moves right, jumps over Goombas, and reaches the flagpole
 
 ---
 
-*Built with ❤️ using Google Colab*
