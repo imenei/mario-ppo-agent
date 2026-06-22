@@ -1,5 +1,9 @@
 #  Mario PPO Agent
 
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.0-red?logo=pytorch)
+![Stable Baselines3](https://img.shields.io/badge/Stable--Baselines3-PPO-green)
+
 An AI agent trained to play Super Mario Bros using Deep Reinforcement Learning with the PPO algorithm.
 
 ![Mario PPO Agent](mario_best.gif)
@@ -32,6 +36,7 @@ The algorithm used is **PPO (Proximal Policy Optimization)**, a state-of-the-art
 - **Action space** : SIMPLE_MOVEMENT (7 actions)
 - **Policy** : CnnPolicy (convolutional neural network)
 - **Frame skip** : 4 (1 action repeated over 4 frames)
+- **Parallel envs** : 10 environments trained simultaneously
 
 ---
 
@@ -54,6 +59,19 @@ PPO(
 
 ---
 
+##  Results
+
+| Metric | Value |
+|--------|-------|
+| Total timesteps | 500,000 |
+| Parallel environments | 10 |
+| Best episode selected from | 300 runs |
+| Behavior | Runs right, jumps Goombas, reaches flagpole |
+
+The agent consistently moves right, jumps over Goombas, and reaches the flagpole on good runs.
+
+---
+
 ##  Run it yourself
 
 ### 1. Open the notebook in Colab
@@ -68,11 +86,12 @@ PPO(
 
 ---
 
-## Files
+##  Files
 
 ```
 mario-ppo-agent/
 ├── README.md
+├── mario_agent.py        ← Python training script
 ├── mario_best.gif        ← demo (best episode)
 ├── mario_best.mp4        ← demo HD
 ├── mario_agent.ipynb     ← full notebook
@@ -81,9 +100,7 @@ mario-ppo-agent/
 
 ---
 
-##  Results
+##  Author
 
-The agent consistently moves right, jumps over Goombas, and reaches the flagpole on good runs. Best performance recorded after selecting the top episode out of 300 runs.
-
----
-
+**Imene Belmadoui** — AI & Data Science Engineer
+[GitHub](https://github.com/imenei) · [LinkedIn](https://linkedin.com/in/imene-belmadoui)
